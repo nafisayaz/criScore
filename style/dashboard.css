@@ -1,0 +1,48 @@
+
+
+
+div.border{
+
+	position: fixed;
+	background-color: blue;
+	margin-top: -1%;
+	margin-left: -2%;
+	height: 100px;
+	width: 105%;
+}
+
+div.criScore p{
+	position: fixed;
+	margin-top: 1%;
+	margin-left: 40%;
+	font-size: 50px;
+	color: white;
+}
+
+
+div.scoreBoardIn{
+	position: fixed;
+	background: #333;
+	height: 500px;
+	width: 25%;
+	margin-top: 10%;
+	margin-left: 35%;
+}
+
+div.scoreBoardIn input[type = submit]{
+	margin-left: 220px;
+}
+
+div.createNew{
+	position: fixed;
+	background: #333;
+	height: 250px;
+	width: 25%;
+	margin-top: 10%;
+	margin-left: 65%;
+}
+
+div.createNew input[type = submit]{
+	margin-left: 220px;
+}
+

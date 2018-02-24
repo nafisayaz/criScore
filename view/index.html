@@ -1,0 +1,93 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> criScore </title>
+		
+		
+		<link type="text/css" rel = "stylesheet" href= "index.css">
+	
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src = "index.js">  </script>
+
+	</head>
+	
+	
+	<body class = "bodyColor">
+		
+		<div class = "border"></div>
+		<div class = "criScore">
+			<p>criScore</p>
+		</div>
+
+		
+		<div class = "IND" class = "PAK" id = "id_1">		
+			<h3> IND Vs PAK</h3>
+			<h4 class = "player" id = "player">Nafis</h4>
+			<h4 class = "run" id = "run">run</h4>
+			<h4 class = "per" id = "per">/</h4>
+			<h4 class = "ball" id = "ball">ball</h4>
+			<h4 class = "status" id="status">NOT</h4>
+
+			<h2 class = "teamName" id = "teamName">India: </h2>
+			<p class = "TotalScoreDetail" id = "TotalScoreDetail">30</p>
+			<p class = "view " id = "view" onclick = "show('IND')"><u>View</u></p>
+		</div>
+		
+		<div class = "AUS" class = "ENG" id  = "id_2">		
+			<h3> AUS Vs ENG</h3>
+			<h4 class = "Player" id = "player">Nafis</h4>
+			<h4 class = "run" id = "run">run</h4>
+			<h4 class = "per" id = "per">/</h4>
+			<h4 class = "ball" id = "ball">ball</h4>
+			<h4 class = "status" id = "status">NOT</h4>
+
+			<h2 class = "teamName" id = "teamName">India: </h2>
+			<p class = "TotalScoreDetail" id = "TotalScoreDetail">30</p>
+			<p class = "view" id = "view" onclick = "show('AUS')"><u>View</u></p>
+		</div>
+		
+		<div class = "SRI" class = "S.AFRICA" id = "id_3">		
+			<h3> SRI Vs AFRICA</h3>
+			<h4 class = "Player" id = "player">Nafis</h4>
+			<h4 class = "run" id = "run">run</h4>
+			<h4 class = "per" id = "per">/</h4>
+			<h4 class = "ball" id = "ball">ball</h4>
+			<h4 class = "status" id = "status">NOT</h4>
+
+			<h2 class = "teamName" id = "teamName">India: </h2>
+			<p class = "TotalScoreDetail" id = "TotalScoreDetail">30</p>
+			<p class = "view " id = "view" onclick = "show('SRI')"><u>View</u></p>
+		</div>
+
+		<div class = "HOLLAND" class = "KENYA" id = "id_4">		
+			<h3> HOLLAND Vs KENYA</h3>
+			<h4 class = "Player" id = "player">Nafis</h4>
+			<h4 class = "run" id = "run">run</h4>
+			<h4 class = "per" id = "per">/</h4>
+			<h4 class = "ball" id = "ball">ball</h4>
+			<h4 class = "status" id = "status">NOT</h4>
+
+			<h2 class = "teamName" id = "teamName">India: </h2>
+			<p class = "TotalScoreDetail" id = "TotalScoreDetail">30</p>
+			<p class = "view " id = "view" onclick = "show('HOLLAND')"><u>View</u></p>
+		</div>
+
+		
+		<div id = "viewTable" class = viewTable>
+			<h2>___SCORE DETAILS____</h2>
+		</div>
+
+
+	</body>
+	
+</html>
+
+
+

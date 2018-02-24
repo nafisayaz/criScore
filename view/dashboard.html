@@ -1,0 +1,52 @@
+
+
+
+<html>
+
+	<head>
+		
+		<title> criScore </title>
+		
+		
+		<link type="text/css" rel = "stylesheet" href= "dashboard.css">
+	
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src = "dashboard.js">  </script>
+
+	</head>
+
+	<body>
+		
+		<div class = "border"></div>
+		<div class = "criScore">
+			<p>criScore</p>
+		</div>
+
+					
+		<div class = "scoreBoardIn">
+			<h1> DashBoard In </h1>
+			<form id = "scoreBoard" name = "scoreBoard">
+				<pre>Team:	<input type = "text" size = "30" class = "team" id = "team"><br><br><br></pre>
+				<pre>Player: <input type = "text" size = "30" class = "player" id = "player"><br><br><br></pre>
+				<pre>Run:  	<input type = "text" size = "30" class = "run" id = "run"/><br><br><br></pre>
+				<pre>Over:   <input type = "text" size = "30" class = "over" id = "over"/><br><br><br></pre>
+				<pre>Wicket: <input type = "text" size = "30" class = "wckt" id = "wckt"/><br><br><br></pre>
+				<pre>Is_Out: <input type = "text" size = "30" class = "is_out" id = "is_out"/><br><br><br></pre>
+				<input type = "submit" value = "Submit"/>
+			</form>
+		</div>
+
+
+		<div class = "createNew">
+			<h1> Create New Match </h1>
+			<pre>Team1:	<input type = "text" size = "30" class = "team" id = "team"><br><br></pre>
+			<pre>Team2:	<input type = "text" size = "30" class = "team" id = "team"><br><br></pre>
+			<input type = "submit" value = "Create"/>
+		</div>
+
+	</body>
+
+</html>
+

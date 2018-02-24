@@ -1,0 +1,6 @@
+
+
+all:
+	nodemon server.js
+
+

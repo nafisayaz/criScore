@@ -1,0 +1,240 @@
+
+
+
+body.bodyColor{
+	background-color : white;
+}
+
+
+div.border{
+
+	position: fixed;
+	background-color: blue;
+	margin-top: -1%;
+	margin-left: -2%;
+	height: 100px;
+	width: 105%;
+}
+
+div.criScore p{
+	position: fixed;
+	margin-top: 1%;
+	margin-left: 40%;
+	font-size: 50px;
+	color: white;
+}
+
+div.IND{
+	position: fixed;
+	background: #ccc;
+	height: 100px;
+	width: 40%;
+	margin-top: 10%;
+	margin-left: 2%;
+}
+
+div.IND h4{
+	margin-top: -40px;
+	margin-left: 40%;
+	
+}
+
+div.IND h4.run{
+	margin-top: -40px;
+	margin-left: 50%;
+	
+}
+
+div.IND h4.per{
+	margin-top: -40px;
+	margin-left: 55.5%;
+	
+}
+
+div.IND h4.ball{
+	margin-top: -40px;
+	margin-left: 57%;
+	
+}
+
+div.IND h4.status{
+	margin-top: -39px;
+	margin-left: 80%;
+	
+}
+
+div.AUS{
+	position: fixed;
+	background: #ccc;
+	height: 100px;
+	width: 40%;
+	margin-top: 19%;
+	margin-left: 2%;
+}
+
+div.AUS h4{
+	margin-top: -40px;
+	margin-left: 40%;
+	
+}
+
+div.AUS h4.run{
+	margin-top: -40px;
+	margin-left: 50%;
+	
+}
+
+div.AUS h4.per{
+	margin-top: -40px;
+	margin-left: 55.5%;
+	
+}
+
+div.AUS h4.ball{
+	margin-top: -40px;
+	margin-left: 57%;
+	
+}
+
+div.AUS h4.status{
+	margin-top: -39px;
+	margin-left: 80%;
+	
+}
+
+div.SRI{
+	position: fixed;
+	background: #ccc;
+	height: 100px;
+	width: 40%;
+	margin-top: 28%;
+	margin-left: 2%;
+}
+
+div.SRI h4{
+	margin-top: -40px;
+	margin-left: 40%;
+	
+}
+
+div.SRI h4.run{
+	margin-top: -40px;
+	margin-left: 50%;
+	
+}
+
+div.SRI h4.per{
+	margin-top: -40px;
+	margin-left: 55.5%;
+	
+}
+
+div.SRI h4.ball{
+	margin-top: -40px;
+	margin-left: 57%;
+	
+}
+
+div.SRI h4.status{
+	margin-top: -39px;
+	margin-left: 80%;
+	
+}
+
+div.HOLLAND{
+	position: fixed;
+	background: #ccc;
+	height: 100px;
+	width: 40%;
+	margin-top: 37%;
+	margin-left: 2%;
+}
+
+div.HOLLAND h4{
+	margin-top: -40px;
+	margin-left: 40%;
+	
+}
+
+div.HOLLAND h4.run{
+	margin-top: -40px;
+	margin-left: 50%;
+	
+}
+
+div.HOLLAND h4.per{
+	margin-top: -40px;
+	margin-left: 55.5%;
+	
+}
+
+div.HOLLAND h4.ball{
+	margin-top: -40px;
+	margin-left: 57%;
+	
+}
+
+div.HOLLAND h4.status{
+	margin-top: -39px;
+	margin-left: 80%;
+	
+}
+
+
+h2.teamName{
+	position: fixed;
+	margin-top: 0%;
+	color: blue;
+	
+}
+
+p.TotalScoreDetail{
+	position: fixed;
+	margin-top: 0%;
+	margin-left: 12%;
+
+}
+
+p.view{
+	
+	position: fixed;
+	margin-top: 0%;
+	margin-left: 35%;
+
+}
+
+div.viewTable{
+	background: #ccc;
+	position: fixed;
+	margin-top: 10%;
+	margin-left: 50%;
+	height:300px;
+	width : 500px;
+	overflow-y: auto;
+}
+
+div.viewTable h2{
+	margin-left: 20%;
+	
+}
+
+
+
+div.score{
+	height: 20%;
+	width: 10px;
+
+}
+
+div.over{
+	height: 20px;
+	width: 10px;
+
+}
+
+div.wickt{
+	height: 20px;
+	width: 10px;
+
+}
+
