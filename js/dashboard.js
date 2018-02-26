@@ -37,5 +37,30 @@ $(function($){
 	});
 });
 
+$(function($){
+	
+	$("#createMatch").submit(function(e){
+		e.preventDefault();
+		
+		var team1 = $("#team1").val();
+		var team2 = $("#team2").val();
+
+		var body = {
+			team1 : team1,
+			team2 : team2
+
+		};
+
+		$.post('/createMatch', body, function(msg){		
+			
+			socket.emit('create_match', msg);
+			
+		});
+
+	});
+});
+
+
+
 
 

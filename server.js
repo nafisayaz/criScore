@@ -20,42 +20,62 @@ app.use(bodyParser.urlencoded({
 			}));
 app.use(bodyParser.json());
 
-app.get('/', function(req, res){
-		
-		res.sendfile(__dirname+"index.html");
+app.get('/', function(req, res){	
+	res.sendfile(__dirname+"index.html");
 });
 
 app.get('/dashboard', function(req, res){
-		res.sendfile(__dirname+"/view/dashboard.html");
+	res.sendfile(__dirname+"/view/dashboard.html");
 });
 
 
 app.post('/save', function(req, res){
-
-		var data = additional.save_data(req.body, function(data){
-			return data;
-		});
-		res.json(data);
+	var data = additional.save_data(req.body, function(data){
+		return data;
+	});
+	res.json(data);
 });		
 
 app.get('/fetch', function(req, res){
-		res.json(additional.fetch_data(function(list_scoreDetals){
-				
-			return list_scoreDetails;
-		}));
+	res.json(additional.fetch_data(function(list_scoreDetals){
+		return list_scoreDetails;
+	}));
 });		
 
 app.post('/show',function(req, res){
-		res.json(additional.show_data(req.body, function(listDetails){
-			return listDetails;
-		}));
-});		
+	res.json(additional.show_data(req.body, function(listDetails){
+		return listDetails;
+	}));
+});
+
+
+app.post('/createMatch', function(req, res){
+	res.json(additional.create_match(req.body, function(body){
+		return body;
+	}));
+
+});
+
+app.get('/fetchCreatedMatches', function(req, res){
+	console.log("------------------------->");	
+	res.json(additional.fetch_created_matches(function(list_matches){
+			return list_matches;
+	}));
+	
+});
 
 io.on('connection', function(socket){
 		console.log('a user connected');
+		
 		socket.on('send_score', function(msg){
 			io.emit('send_score', msg);	
 		});
+		
+		socket.on('create_match', function(msg){
+			io.emit('create_match', msg);	
+		});
+
+		
 
 });
 
